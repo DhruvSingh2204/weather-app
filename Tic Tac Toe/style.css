@@ -1,0 +1,61 @@
+.box{
+  width: 35%;
+  height: 160px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+body{
+  background-color: black;
+}
+
+.row{
+  display: flex;
+  width: 35%;
+  height: 160px;
+  border: 2px solid white;
+  color: white;
+}
+
+#result{
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  color: white;
+}
+
+#result{
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+}
+
+#game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lastDiv{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button{
+  height: 50px;
+  width: 50px;
+}
+
+button:hover{
+  background-color: grey;
+}

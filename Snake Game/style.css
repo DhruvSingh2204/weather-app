@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #body {
+    background-image: url("bg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #board {
+    background: linear-gradient(#26e326 , yellow);
+    width: 40vw;
+    height: 80vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18 , 1fr);
+    grid-template-rows: repeat(18 , 1fr);
+    position: absolute;
+    bottom: 7vh;
+  }
+  
+  .head {
+    background:linear-gradient(red , green);
+    border-radius: 10px;
+  }
+  
+  .snake {
+    background-color: blue;
+    border: 0.25vmin solid white;
+    border-radius: 12px;
+  }
+  
+  .food {
+    background: linear-gradient(red , purple);
+    border: 0.25vmin solid black;
+    border-radius: 8px;
+  }
+  
+  #scoreDiv {
+    position: absolute;
+    top: 1.5vh;
+    font-size: 2rem;
+    border: 2px solid black;
+    background: linear-gradient(blue , red);
+    padding: 10px;
+    border-radius: 10px;
+    left: 30vw;
+  }
+  
+  #reset {
+    position: absolute;
+    bottom: 2vh;
+    background: linear-gradient(green , black);
+    color: #c2c2c2;
+    padding: 3px;
+    border-radius: 13px;
+  }
+  
+  #hiscoreDiv {
+    position: absolute;
+    top: 1.5vh;
+    font-size: 2rem;
+    border: 2px solid black;
+    background: linear-gradient(blue , red);
+    padding: 10px;
+    border-radius: 10px;
+    right: 30vw;
+  }

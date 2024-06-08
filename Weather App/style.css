@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0%;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  background-color:  #112b50;
+  color: white;
+}
+
+#searchDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchcity{
+  width: 300px;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 1.2rem;
+}
+
+#searchButton{
+  height: 35.5px;
+  margin-left: -2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#mainDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin: 0px;
+}
+
+#leftmain{
+  width: 50%;
+  background-color: #112b50;
+  height: 680px;
+  margin: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #bdbdbd;
+}
+
+#rightmain{
+  width: 50%;
+  margin-left: 20px;
+}
+
+#mainDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerkrnahai{
+  display: flex;
+  justify-content: space-between;
+}
+
+span{
+  margin-left: 10px;
+}
+
+.outerspan{
+  display: flex;
+  align-items: center;
+}
+
+#mainDetails2{
+  display: flex;
+  justify-content: center;
+}
+
+#mainForecasts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#searchButton:hover{
+  background-color: grey;
+}
+
+#sunemoji{
+  color: #c3d100;
+}
+
+#droplet{
+  color: blue;
+}
+
+#chillemoji{
+  color: #4747ff;
+}
+
+#cityNameDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+#moonemoji{
+  color: blue;
+}
+
+#datetime{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
